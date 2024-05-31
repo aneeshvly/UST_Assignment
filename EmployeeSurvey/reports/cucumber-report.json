@@ -1,0 +1,1531 @@
+[
+  {
+    "description": "    This is the sample project for the assignment",
+    "elements": [
+      {
+        "description": "",
+        "id": "experian-employer-service;launch-the-application",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Launch the application",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 27477600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "Launch the application",
+            "match": {
+              "location": "src\\steps-defenitions\\1.EES_FillPersonalDetails_Step.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18720496999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Verify the application launched successfully",
+            "match": {
+              "location": "src\\steps-defenitions\\1.EES_FillPersonalDetails_Step.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 42022300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 211299
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FormFill",
+            "line": 2
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "experian-employer-service;verify-the-blank-field-validation",
+        "keyword": "Scenario Outline",
+        "line": 17,
+        "name": "Verify the blank field validation",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 10713700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Click on the next button",
+            "match": {
+              "location": "src\\steps-defenitions\\1.EES_FillPersonalDetails_Step.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 899369500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Verify the mandatory field validation for the \"First Name\"",
+            "match": {
+              "location": "src\\steps-defenitions\\1.EES_FillPersonalDetails_Step.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38616600
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 117199
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FormFill",
+            "line": 2
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "experian-employer-service;verify-the-blank-field-validation",
+        "keyword": "Scenario Outline",
+        "line": 18,
+        "name": "Verify the blank field validation",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 12505499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Click on the next button",
+            "match": {
+              "location": "src\\steps-defenitions\\1.EES_FillPersonalDetails_Step.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 575796500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Verify the mandatory field validation for the \"Last Name\"",
+            "match": {
+              "location": "src\\steps-defenitions\\1.EES_FillPersonalDetails_Step.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 37319299
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 118399
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FormFill",
+            "line": 2
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "experian-employer-service;verify-the-blank-field-validation",
+        "keyword": "Scenario Outline",
+        "line": 19,
+        "name": "Verify the blank field validation",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 12556000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Click on the next button",
+            "match": {
+              "location": "src\\steps-defenitions\\1.EES_FillPersonalDetails_Step.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 601420499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Verify the mandatory field validation for the \"Street Address\"",
+            "match": {
+              "location": "src\\steps-defenitions\\1.EES_FillPersonalDetails_Step.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33254000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 87700
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FormFill",
+            "line": 2
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "experian-employer-service;verify-the-blank-field-validation",
+        "keyword": "Scenario Outline",
+        "line": 20,
+        "name": "Verify the blank field validation",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 18301599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Click on the next button",
+            "match": {
+              "location": "src\\steps-defenitions\\1.EES_FillPersonalDetails_Step.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 516475800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Verify the mandatory field validation for the \"City\"",
+            "match": {
+              "location": "src\\steps-defenitions\\1.EES_FillPersonalDetails_Step.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32560099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 84800
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FormFill",
+            "line": 2
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "experian-employer-service;verify-the-blank-field-validation",
+        "keyword": "Scenario Outline",
+        "line": 21,
+        "name": "Verify the blank field validation",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 10712299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Click on the next button",
+            "match": {
+              "location": "src\\steps-defenitions\\1.EES_FillPersonalDetails_Step.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 781158299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Verify the mandatory field validation for the \"Zip Code\"",
+            "match": {
+              "location": "src\\steps-defenitions\\1.EES_FillPersonalDetails_Step.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38602399
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 98200
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FormFill",
+            "line": 2
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "experian-employer-service;verify-the-zipcode-format-validation",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Verify the zipcode format validation",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 6980100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "Enter the wrong zipcode \"wrong zip\"",
+            "match": {
+              "location": "src\\steps-defenitions\\1.EES_FillPersonalDetails_Step.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2358400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "Verify the validation message is correct or not",
+            "match": {
+              "location": "src\\steps-defenitions\\1.EES_FillPersonalDetails_Step.ts:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1757099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 48800
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FormFill",
+            "line": 2
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "experian-employer-service;enter-the-personal-details",
+        "keyword": "Scenario Outline",
+        "line": 31,
+        "name": "Enter the personal details",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 30769100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 28,
+            "name": "Enter the personal details \"First Name\"",
+            "match": {
+              "location": "src\\steps-defenitions\\1.EES_FillPersonalDetails_Step.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 61011099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 65699
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FormFill",
+            "line": 2
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "experian-employer-service;enter-the-personal-details",
+        "keyword": "Scenario Outline",
+        "line": 32,
+        "name": "Enter the personal details",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 8417699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 28,
+            "name": "Enter the personal details \"Last Name\"",
+            "match": {
+              "location": "src\\steps-defenitions\\1.EES_FillPersonalDetails_Step.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 48925400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 101999
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FormFill",
+            "line": 2
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "experian-employer-service;enter-the-personal-details",
+        "keyword": "Scenario Outline",
+        "line": 33,
+        "name": "Enter the personal details",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 16512500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 28,
+            "name": "Enter the personal details \"Email Address\"",
+            "match": {
+              "location": "src\\steps-defenitions\\1.EES_FillPersonalDetails_Step.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 60902600
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 206999
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FormFill",
+            "line": 2
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "experian-employer-service;enter-the-personal-details",
+        "keyword": "Scenario Outline",
+        "line": 34,
+        "name": "Enter the personal details",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 9734000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 28,
+            "name": "Enter the personal details \"Street Address\"",
+            "match": {
+              "location": "src\\steps-defenitions\\1.EES_FillPersonalDetails_Step.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 43809900
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 92100
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FormFill",
+            "line": 2
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "experian-employer-service;enter-the-personal-details",
+        "keyword": "Scenario Outline",
+        "line": 35,
+        "name": "Enter the personal details",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 9256999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 28,
+            "name": "Enter the personal details \"City\"",
+            "match": {
+              "location": "src\\steps-defenitions\\1.EES_FillPersonalDetails_Step.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 47482799
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 73800
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FormFill",
+            "line": 2
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "experian-employer-service;enter-the-personal-details",
+        "keyword": "Scenario Outline",
+        "line": 36,
+        "name": "Enter the personal details",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 7910599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 28,
+            "name": "Enter the personal details \"Zip Code\"",
+            "match": {
+              "location": "src\\steps-defenitions\\1.EES_FillPersonalDetails_Step.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 47115200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 71400
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FormFill",
+            "line": 2
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "experian-employer-service;verify-the-page-navigation-to-questionnaire-page",
+        "keyword": "Scenario Outline",
+        "line": 38,
+        "name": "Verify the page navigation to questionnaire page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 12096099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 39,
+            "name": "Click on the next button",
+            "match": {
+              "location": "src\\steps-defenitions\\1.EES_FillPersonalDetails_Step.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2319294599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 40,
+            "name": "Verify the page navigation to the questionnaire page",
+            "match": {
+              "location": "src\\steps-defenitions\\1.EES_FillPersonalDetails_Step.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32298899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 89099
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FormFill",
+            "line": 2
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "experian-employer-service;verify-the-validation-for-the-page-navigation-without-answering-the-questions",
+        "keyword": "Scenario Outline",
+        "line": 48,
+        "name": "Verify the validation for the page navigation without answering the questions",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 8075399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 44,
+            "name": "Click on the next button",
+            "match": {
+              "location": "src\\steps-defenitions\\1.EES_FillPersonalDetails_Step.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1080712499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 45,
+            "name": "Verify the validation message for the question \"In the last year, have you or anyone you've lived with received SNAP (Supplemental Nutrition Assistance Program also referred to as food stamps)?\"",
+            "match": {
+              "location": "src\\steps-defenitions\\1.EES_FillPersonalDetails_Step.ts:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32247800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 69900
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FormFill",
+            "line": 2
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "experian-employer-service;verify-the-validation-for-the-page-navigation-without-answering-the-questions",
+        "keyword": "Scenario Outline",
+        "line": 49,
+        "name": "Verify the validation for the page navigation without answering the questions",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 7029900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 44,
+            "name": "Click on the next button",
+            "match": {
+              "location": "src\\steps-defenitions\\1.EES_FillPersonalDetails_Step.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 922105399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 45,
+            "name": "Verify the validation message for the question \"In the last two years, have you or anyone you've lived with received TANF (Temporary Assistance for Needy Families also referred to as welfare)?\"",
+            "match": {
+              "location": "src\\steps-defenitions\\1.EES_FillPersonalDetails_Step.ts:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33534199
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 92799
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FormFill",
+            "line": 2
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "experian-employer-service;verify-the-validation-for-the-page-navigation-without-answering-the-questions",
+        "keyword": "Scenario Outline",
+        "line": 50,
+        "name": "Verify the validation for the page navigation without answering the questions",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 12205300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 44,
+            "name": "Click on the next button",
+            "match": {
+              "location": "src\\steps-defenitions\\1.EES_FillPersonalDetails_Step.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 760203500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 45,
+            "name": "Verify the validation message for the question \"Are you a veteran of the U.S. Military/Armed Forces?\"",
+            "match": {
+              "location": "src\\steps-defenitions\\1.EES_FillPersonalDetails_Step.ts:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32866399
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 76799
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FormFill",
+            "line": 2
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "experian-employer-service;verify-the-validation-for-the-page-navigation-without-answering-the-questions",
+        "keyword": "Scenario Outline",
+        "line": 51,
+        "name": "Verify the validation for the page navigation without answering the questions",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 9766000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 44,
+            "name": "Click on the next button",
+            "match": {
+              "location": "src\\steps-defenitions\\1.EES_FillPersonalDetails_Step.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 780177999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 45,
+            "name": "Verify the validation message for the question \"Are you a person who has a disability?\"",
+            "match": {
+              "location": "src\\steps-defenitions\\1.EES_FillPersonalDetails_Step.ts:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32639900
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 89299
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FormFill",
+            "line": 2
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "experian-employer-service;verify-the-validation-for-the-page-navigation-without-answering-the-questions",
+        "keyword": "Scenario Outline",
+        "line": 52,
+        "name": "Verify the validation for the page navigation without answering the questions",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 7400199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 44,
+            "name": "Click on the next button",
+            "match": {
+              "location": "src\\steps-defenitions\\1.EES_FillPersonalDetails_Step.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 776559600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 45,
+            "name": "Verify the validation message for the question \"Have you ever been convicted of a felony?\"",
+            "match": {
+              "location": "src\\steps-defenitions\\1.EES_FillPersonalDetails_Step.ts:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 34035600
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 73600
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FormFill",
+            "line": 2
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "experian-employer-service;verify-the-validation-for-the-page-navigation-without-answering-the-questions",
+        "keyword": "Scenario Outline",
+        "line": 53,
+        "name": "Verify the validation for the page navigation without answering the questions",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 7510499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 44,
+            "name": "Click on the next button",
+            "match": {
+              "location": "src\\steps-defenitions\\1.EES_FillPersonalDetails_Step.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 967942900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 45,
+            "name": "Verify the validation message for the question \"Have you collected unemployment benefits at any time during your unemployment period?\"",
+            "match": {
+              "location": "src\\steps-defenitions\\1.EES_FillPersonalDetails_Step.ts:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 36541799
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 71399
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FormFill",
+            "line": 2
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "experian-employer-service;answer-the-sample-questions",
+        "keyword": "Scenario Outline",
+        "line": 61,
+        "name": "Answer the sample questions",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 9280700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 57,
+            "name": "Read the \"In the last year, have you or anyone you've lived with received SNAP (Supplemental Nutrition Assistance Program also referred to as food stamps)?\" and choose the right \"No\"",
+            "match": {
+              "location": "src\\steps-defenitions\\1.EES_FillPersonalDetails_Step.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 84139200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 68199
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FormFill",
+            "line": 2
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "experian-employer-service;answer-the-sample-questions",
+        "keyword": "Scenario Outline",
+        "line": 62,
+        "name": "Answer the sample questions",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 6080399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 57,
+            "name": "Read the \"In the last two years, have you or anyone you've lived with received TANF (Temporary Assistance for Needy Families also referred to as welfare)?\" and choose the right \"No\"",
+            "match": {
+              "location": "src\\steps-defenitions\\1.EES_FillPersonalDetails_Step.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 65570200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 81500
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FormFill",
+            "line": 2
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "experian-employer-service;answer-the-sample-questions",
+        "keyword": "Scenario Outline",
+        "line": 63,
+        "name": "Answer the sample questions",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 7376400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 57,
+            "name": "Read the \"Are you a veteran of the U.S. Military/Armed Forces?\" and choose the right \"No\"",
+            "match": {
+              "location": "src\\steps-defenitions\\1.EES_FillPersonalDetails_Step.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 75147300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 97900
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FormFill",
+            "line": 2
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "experian-employer-service;answer-the-sample-questions",
+        "keyword": "Scenario Outline",
+        "line": 64,
+        "name": "Answer the sample questions",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 8266100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 57,
+            "name": "Read the \"Are you a person who has a disability?\" and choose the right \"No\"",
+            "match": {
+              "location": "src\\steps-defenitions\\1.EES_FillPersonalDetails_Step.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 72298800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 86999
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FormFill",
+            "line": 2
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "experian-employer-service;answer-the-sample-questions",
+        "keyword": "Scenario Outline",
+        "line": 65,
+        "name": "Answer the sample questions",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 8388699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 57,
+            "name": "Read the \"Have you ever been convicted of a felony?\" and choose the right \"No\"",
+            "match": {
+              "location": "src\\steps-defenitions\\1.EES_FillPersonalDetails_Step.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 61189500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 73300
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FormFill",
+            "line": 2
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "experian-employer-service;answer-the-sample-questions",
+        "keyword": "Scenario Outline",
+        "line": 66,
+        "name": "Answer the sample questions",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 8408000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 57,
+            "name": "Read the \"Have you collected unemployment benefits at any time during your unemployment period?\" and choose the right \"No\"",
+            "match": {
+              "location": "src\\steps-defenitions\\1.EES_FillPersonalDetails_Step.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 79851999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 91700
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FormFill",
+            "line": 2
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "experian-employer-service;verify-the-page-navigatioon-to-the-summary-page-after-submission",
+        "keyword": "Scenario",
+        "line": 68,
+        "name": "Verify the page navigatioon to the summary page after submission",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 10126500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 69,
+            "name": "Click on the next button",
+            "match": {
+              "location": "src\\steps-defenitions\\1.EES_FillPersonalDetails_Step.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 783154000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 70,
+            "name": "Verify the page navigation to the additional information page",
+            "match": {
+              "location": "src\\steps-defenitions\\1.EES_FillPersonalDetails_Step.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 35138000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 117899
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FormFill",
+            "line": 2
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "experian-employer-service;verify-the-first-name-and-last-name-of-the-employee",
+        "keyword": "Scenario",
+        "line": 73,
+        "name": "Verify the first name and last name of the employee",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 7492899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 74,
+            "name": "Verify the first name and last name of the employee",
+            "match": {
+              "location": "src\\steps-defenitions\\1.EES_FillPersonalDetails_Step.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19500599
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 71100
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FormFill",
+            "line": 2
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "experian-employer-service;verify-the-page-navigation-and-verify-the-url",
+        "keyword": "Scenario",
+        "line": 76,
+        "name": "Verify the page navigation and verify the URL",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 11965400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 77,
+            "name": "Click on the submit button",
+            "match": {
+              "location": "src\\steps-defenitions\\1.EES_FillPersonalDetails_Step.ts:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2333123100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 78,
+            "name": "Verify the URL of the new page",
+            "match": {
+              "location": "src\\steps-defenitions\\1.EES_FillPersonalDetails_Step.ts:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1753599
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 48800
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FormFill",
+            "line": 2
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "experian-employer-service",
+    "line": 3,
+    "keyword": "Feature",
+    "name": "Experian Employer Service",
+    "tags": [
+      {
+        "name": "@FormFill",
+        "line": 2
+      }
+    ],
+    "uri": "src\\features\\1.EES_FillPersonalDetails.feature"
+  }
+]
