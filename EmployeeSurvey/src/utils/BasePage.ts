@@ -168,6 +168,7 @@ export abstract class BasePage {
       await locator.waitFor();
       return true;
     } catch (error) {
+      console.log('Locator :' + locator);
       return false;
     }
   }

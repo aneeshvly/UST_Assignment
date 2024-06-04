@@ -22,6 +22,7 @@ Feature: Experian Employer Service
 
     Scenario: Verify the zipcode format validation
         When Enter the wrong zipcode "wrong zip"
+        When Click on the next button
         Then Verify the validation message is correct or not
 
     Scenario Outline: Enter the personal details

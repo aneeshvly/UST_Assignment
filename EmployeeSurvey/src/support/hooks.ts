@@ -22,7 +22,7 @@ BeforeAll(async function () {
   for (const browsers of config.browsers) { 
     switch (browsers) {
       case 'chromium':
-        browser = await firefox.launch({ headless: false});
+        browser = await chromium.launch({ headless: false});
         break;
       case 'firefox':
         browser = await firefox.launch({ headless: false});
@@ -74,7 +74,7 @@ After(async function (this: ICustomWorld, { result }: ITestCaseHookParameter) {
 });
 
 AfterAll(async function () {
-  context1?.close(); 
-  page1.close; 
+  page1.close(); 
+  context1?.close();  
   await browser.close();
 });

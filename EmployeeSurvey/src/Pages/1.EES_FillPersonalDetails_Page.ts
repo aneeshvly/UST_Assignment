@@ -85,12 +85,12 @@ export default class FillPersonalDetails extends BasePage {
   }
   async enterTheZipCode(zipCode:string)
   {
-    this.personalDetails_ZipCode_TxtBox.fill(zipCode);
+    await  this.personalDetails_ZipCode_TxtBox.fill(zipCode);
   }
 
   async verifyWrongZipcodeFormatValidationMessage()
   {
-    this.locatorShouldBePresent( this.personalDetails_ZicodeFormatValidationError_Lbl);
+    await this.locatorShouldBePresent( this.personalDetails_ZicodeFormatValidationError_Lbl);
   }
   async verifyTheMandatoryValidationForTheQuestions(question: string)
   {
